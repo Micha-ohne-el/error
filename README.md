@@ -18,12 +18,11 @@ omf install error
 ```fish
 error [code] [message] [value...]
 ```
-### Parameters
-|                 |                                                           |
+| Parameter       | Description                                               |
 | --------------- | --------------------------------------------------------- |
-| `code`          | The error code of the error that occured. See [Unix Error Codes](https://mazack.org/unix/errno.php). |
-| `message`       | The error message that shoul be printed to `stderr`. |
-| `value`         | The value that caused the error, such as an invalid parameter, or a filename. |
+| `code`          | The error code of the error that occured. See [Unix Error Codes](https://mazack.org/unix/errno.php).
+| `message`       | The error message that shoul be printed to `stderr`.
+| `value`         | The value that caused the error, such as an invalid parameter, or a filename.
 
 If `code` is 0, `error` will not print anything and will return 0.
 This is because an error code of 0 is considered to be success.
