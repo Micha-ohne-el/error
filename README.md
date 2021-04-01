@@ -9,7 +9,7 @@
 
 <br/>
 
-## Install
+## Installation
 ```fish
 omf install error
 ```
@@ -21,7 +21,7 @@ error [code] [message] [value...]
 | Parameter       | Description                                               |
 | --------------- | --------------------------------------------------------- |
 | `code`          | The error code of the error that occured. See [Unix Error Codes](https://mazack.org/unix/errno.php).
-| `message`       | The error message that shoul be printed to `stderr`.
+| `message`       | The error message that should be printed to `stderr`.
 | `value`         | The value that caused the error, such as an invalid parameter, or a filename.
 
 If `code` is 0, `error` will not print anything and will return 0.
